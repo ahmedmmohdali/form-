@@ -1,0 +1,55 @@
+
+
+.left-form {
+    width: 50%;
+    padding: 20px;
+}
+
+.right-form {
+    width: 50%;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    height: 102px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.Register {
+    background-color: #1d471e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center ;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-form,
+.right-form {
+    width: calc(50% - 10px);
+    padding: 20px;
+    box-sizing: border-box;
+}
